@@ -49,8 +49,6 @@ Cada processo minerário passa por etapas administrativas na ANM. As principais:
 | **Lavra garimpeira** | Regime específico para garimpo. |
 | **Disponibilidade** | Área liberada, que pode ser requerida novamente. |
 
-Os nomes exatos das fases variam na base de dados, então confira os valores reais com `value_counts()` ao explorar o arquivo.
-
 ## Tecnologias
 
 - Python 3.10+
