@@ -1,4 +1,3 @@
-git clone https://github.com/hellyneandrade/atlas-minerario-brasil.git
 [README.md](https://github.com/user-attachments/files/33977218/README.md)
 # Atlas Minerário Brasil
 
@@ -56,30 +55,6 @@ Cada processo minerário passa por etapas administrativas na ANM. As principais:
 - [Folium](https://python-visualization.github.io/folium/): mapas interativos (Leaflet)
 - Pandas e Jupyter
 
-## Como rodar
-
-```bash
-# 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/atlas-minerario-brasil.git
-cd atlas-minerario-brasil
-
-# 2. Criar e ativar o ambiente virtual
-python -m venv venv
-venv\Scripts\activate          # Windows
-# source venv/bin/activate     # Mac/Linux
-
-# 3. Instalar as dependências
-pip install geopandas folium pandas jupyter
-
-# 4. Baixar o shapefile da ANM e colocar na pasta data/
-#    (exemplo: data/processos_PE.shp)
-
-# 5. Abrir o notebook e executar célula por célula
-jupyter notebook
-```
-
-> Se a instalação do GeoPandas der problema no Windows, uma alternativa é usar o [Anaconda](https://www.anaconda.com/).
-
 ## Estrutura do projeto
 
 ```
@@ -91,15 +66,6 @@ atlas-minerario-brasil/
 ├── README.md
 └── .gitignore
 ```
-
-## Roteiro
-
-1. Ler o shapefile e explorar as colunas
-2. Filtrar por estado, fase e substância
-3. Gerar o primeiro mapa
-4. Colorir por substância, adicionar popups e filtros
-5. Adicionar a camada de geologia do SGB
-6. Documentar e publicar no GitHub Pages
 
 ## Limitações
 
